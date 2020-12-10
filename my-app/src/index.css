@@ -60,6 +60,14 @@ a{
 a:hover{
   color: #ff8000;
 }
+ul{
+  padding:0;
+  margin: 0;
+}
+li{
+  margin-top:1rem;
+}
+
 
 /* header */ 
 header a{
@@ -85,6 +93,16 @@ a.brand{
   justify-content: center;
 }
 
+.row.top{
+  align-items: flex-start;
+}
+
+.col-1{
+  flex: 1 1 25rem;
+}
+.col-2{
+  flex: 2 1 50rem;
+}
 
 /* Img */
 img{
